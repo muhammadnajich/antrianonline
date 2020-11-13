@@ -65,7 +65,7 @@ class C_Permohonan extends CI_Controller
             'smtp_host' => 'ssl://smtp.googlemail.com',
             'smtp_port' => '465',
             'smtp_user' => 'jorgifatwaambia@gmail.com',
-            'smtp_pass' => 'rosita1212',
+            'smtp_pass' => 'ros',
             'mailtype'  => 'html',
             'charset'   => 'utf-8',
             'crlf'    => "\r\n",
