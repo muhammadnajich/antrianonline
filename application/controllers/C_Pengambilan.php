@@ -58,7 +58,7 @@ class C_Pengambilan extends CI_Controller
 		    'protocol' => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
             'smtp_port' => '465',
-            'smtp_user' => 'jorgifatwaambia@gmail.com',
+            'smtp_user' => 'najich.muhammad2703@gmail.com',
             'smtp_pass' => 'ros',
             'mailtype'  => 'html',
             'charset'   => 'utf-8',
@@ -67,7 +67,7 @@ class C_Pengambilan extends CI_Controller
 		);
 		$this->load->library('email', $config);
 
-		$this->email->from('jorgifatwaambia@gmail.com', 'Kecamatan');
+		$this->email->from('najich.muhammad2703@gmail.com', 'Kecamatan');
         $this->email->to($email);
         $this->email->subject('Pengambilan Dokumen Anda Telah Di Terima');
         $this->email->message("Pengambilan Dokumen telah di tunda, silahkan segera menghubungi pihak kecamatan, dengan memperilhatkan nomor antrian anda.");

@@ -64,7 +64,7 @@ class C_Permohonan extends CI_Controller
 		    'protocol' => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
             'smtp_port' => '465',
-            'smtp_user' => 'jorgifatwaambia@gmail.com',
+            'smtp_user' => 'najich.muhammad2703@gmail.com',
             'smtp_pass' => 'ros',
             'mailtype'  => 'html',
             'charset'   => 'utf-8',
@@ -73,7 +73,7 @@ class C_Permohonan extends CI_Controller
 		);
 		$this->load->library('email', $config);
 
-		$this->email->from('jorgifatwaambia@gmail.com', 'Kecamatan');
+		$this->email->from('najich.muhammad2703@gmail.com', 'Kecamatan');
         $this->email->to($email);
         $this->email->subject('Permohonan Anda Telah Di Ajukan');
         $this->email->message("Permohonan Anda Telah berhasil di ajukan, dengan data sebagai berikut : <br>
@@ -122,8 +122,8 @@ class C_Permohonan extends CI_Controller
 		    'protocol' => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
             'smtp_port' => '465',
-            'smtp_user' => 'jorgifatwaambia@gmail.com',
-            'smtp_pass' => 'rosita1212',
+            'smtp_user' => 'najich.muhammad2703@gmail.com',
+            'smtp_pass' => 'ros',
             'mailtype'  => 'html',
             'charset'   => 'utf-8',
             'crlf'    => "\r\n",
@@ -131,7 +131,7 @@ class C_Permohonan extends CI_Controller
 		);
 		$this->load->library('email', $config);
 
-		$this->email->from('jorgifatwaambia@gmail.com', 'Kecamatan');
+		$this->email->from('najich.muhammad2703@gmail.com', 'Kecamatan');
         $this->email->to($email);
         $this->email->subject('Permohonan Anda Telah Di Terima');
         $this->email->message("Permohonan yang anda ajukan telah di terima, silahkan melakukan pengambilan dokumen, dengan data sebagai berikut : <br>
@@ -181,8 +181,8 @@ class C_Permohonan extends CI_Controller
 		    'protocol' => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
             'smtp_port' => '465',
-            'smtp_user' => 'jorgifatwaambia@gmail.com',
-            'smtp_pass' => 'rosita1212',
+            'smtp_user' => 'najich.muhammad2703@gmail.com',
+            'smtp_pass' => 'ros',
             'mailtype'  => 'html',
             'charset'   => 'utf-8',
             'crlf'    => "\r\n",
@@ -223,8 +223,8 @@ class C_Permohonan extends CI_Controller
 		    'protocol' => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
             'smtp_port' => '465',
-            'smtp_user' => 'jorgifatwaambia@gmail.com',
-            'smtp_pass' => 'rosita1212',
+            'smtp_user' => 'najich.muhammad2703@gmail.com',
+            'smtp_pass' => 'ros',
             'mailtype'  => 'html',
             'charset'   => 'utf-8',
             'crlf'    => "\r\n",
@@ -232,7 +232,7 @@ class C_Permohonan extends CI_Controller
 		);
 		$this->load->library('email', $config);
 
-		$this->email->from('jorgifaatwaambia@gmail.com', 'Kecamatan');
+		$this->email->from('najich.muhammad2703@gmail.com', 'Kecamatan');
         $this->email->to($email);
         $this->email->subject('Permohonan Anda Telah Di Tunda');
         $this->email->message('Silahkan segera menghubungi pihak kecamatan dengan memperlihatkan nomor antrian anda');
